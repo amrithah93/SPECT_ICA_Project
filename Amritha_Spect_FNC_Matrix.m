@@ -213,7 +213,7 @@ icatb_image_viewer(files,'display_type','montage','structfile',fullfile(filepart
 %reminders - the -70:5:40 slice parameter indicates less images, whereas if
 %I removed the - sign in the front, you add more slices
 %for the latest images, I used the following slice parameters: [-70:8:60]
-%as Vince wanted fewer images, so I modified this to also be [-60:8:60]
+%I modified this to also be [-60:8:60]
 
 %% get spatial maps associated with clinical variables 
 %components for significant results for hearing voices, age and sex
