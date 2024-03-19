@@ -69,7 +69,6 @@ Y3<-SZ_transp
 model3<-aov(Y3 ~ sz_age + sz_sex + GSC_A_Score, data=SZ_clinical, na.action = na.omit)
 summary.aov(model3)
 
-##lot of missing data, so check with Vince on what option he prefers
 #now do the same with clinical variables
 
 #same model but in controls
